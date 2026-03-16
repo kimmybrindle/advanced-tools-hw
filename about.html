@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <meta
+      name="description"
+      content="This is a website about Kimmy Brindle and her front-end development projects and how to contact her."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +19,8 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <title>About Kimmy Brindle</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Kimmy Brindle - About</title>
   </head>
   <body class="body">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -35,11 +39,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="index.html"
+              title="Home"
               >Home</a
             >
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="about.html#contact">Contact Me</a>
+            <a class="nav-link" href="about.html" title="About">About</a>
+            <a class="nav-link" href="about.html#contact" title="Contact"
+              >Contact Me</a
+            >
           </div>
         </div>
       </div>
@@ -57,19 +67,35 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yoga.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="picture of front-end development project about yoga"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/weather.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="picture of front-end development project weather app"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid p-2 shadow rounded"
+            alt="picture of front-end development project about yogurt"
+          />
         </div>
       </div>
     </div>
     <div id="contact" class="mt-5">
       <h2>📮 Contact me</h2>
-      <a href="mailto:kimmybrindle@gmail.com" class="email-link">
+      <a
+        href="mailto:kimmybrindle@gmail.com"
+        class="email-link"
+        title="Email Kimmy Brindle"
+      >
         kimmybrindle@gmail.com
       </a>
     </div>
